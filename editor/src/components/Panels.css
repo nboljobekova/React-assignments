@@ -1,0 +1,19 @@
+.Panels {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.Panels-left {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.Panels-right {
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+  
