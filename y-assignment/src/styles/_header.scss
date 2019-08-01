@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    background-color: $bgr-header;
+}
+
+.header__content {
+    height: 60px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50%;
+}
+
+.header__navigation {
+    margin: 0;
+    padding: 0;
+    a {
+        margin-left: 10px;
+    }
+}
+
+.banner {
+    height: 54.7em;
+    width: 100%;
+}

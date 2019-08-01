@@ -1,0 +1,22 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: $color-text;
+}
+
+.wrapper {
+    width: 1400px;
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;  
+}
