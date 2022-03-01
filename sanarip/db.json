@@ -1,0 +1,47 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 100,
+      "bankId": 1
+    },
+    {
+      "amount": 444,
+      "bankId": 3,
+      "id": 4
+    },
+    {
+      "amount": 150,
+      "bankId": 2,
+      "id": 5
+    },
+    {
+      "amount": 500,
+      "bankId": 3,
+      "id": 6
+    },
+    {
+      "amount": 250,
+      "bankId": 1,
+      "id": 7
+    }
+  ],
+  "banks": [
+    {
+      "id": 1,
+      "name": "CentralBank"
+    },
+    {
+      "id": 2,
+      "name": "CommerceBank"
+    },
+    {
+      "id": 3,
+      "name": "DemirBank"
+    },
+    {
+      "id": 4,
+      "name": "BakayBank"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+@import 'bootstrap'; 
+
+.signin {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-form {
+        width: 15rem;
+    }
+}
+
+.container {
+    width: 1140 px;
+}
+
+.header {
+    display: flex;
+    justify-content: between;
+    a {
+        color: rgb(85, 85, 85);
+        text-decoration: none;
+        font-weight: 600;
+        &:hover {
+            color: rgb(173, 10, 10);
+        }
+    }
+}
+
+.transactions {
+    &-form {
+        margin: auto;
+        width: 50rem;
+        &__placeholder {
+            color: blue;
+        }
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type='number'] {
+            -moz-appearance: textfield;
+        }
+        
+    }
+}
+
+.table {
+    &-item-delete {
+        color: rgb(216, 43, 43);
+        font-weight: 600;
+        cursor: pointer;
+    }
+}

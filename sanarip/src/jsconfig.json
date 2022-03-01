@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "paths": {
+        //     "routes": ["src/routes"],
+            "views/*": ["./src/views/*"],
+        //     "components/*": ["src/components/*"],
+          }
+    }
+}
